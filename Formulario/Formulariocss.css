@@ -1,0 +1,89 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(data:image/jpeg;base64,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);
+}
+
+.form-register{
+    width: 900px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+legend{
+    text-align: center;
+    font-size: 22px;
+    font-family:'Calibri';
+}
+h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+a{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.preguntas{
+     width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+title{
+    font-family: 'Times New Roman';
+    font-size: 32px;
+    font-style: normal;
+    color: aqua;
+}
+
+.boton{
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
